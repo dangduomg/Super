@@ -3,5 +3,8 @@
     "name": "Super",
     "auth": "github:dangduomg",
     "description": "Raku support for Python's super",
-    "license": "MIT"
+    "license": "MIT",
+    "provides": {
+        "Super": "lib/Super"
+    }
 }
