@@ -1,0 +1,20 @@
+use Test;
+
+use lib 'lib';
+use Super;
+
+class A {
+    method foo() {
+        '1';
+    }
+}
+
+class B is A {
+    method foo() {
+        "{super(self).foo} 2";
+    }
+}
+
+is B.foo, '1 2';
+
+done-testing;

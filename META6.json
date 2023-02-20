@@ -1,0 +1,6 @@
+{
+    "perl": "6.d",
+    "name": "Super",
+    "auth": "github:dangduomg",
+    "description": "Raku support for Python's super"
+}
